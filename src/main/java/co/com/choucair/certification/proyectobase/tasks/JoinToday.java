@@ -22,7 +22,7 @@ public class JoinToday implements Task {
                 //Tell us about yourself
                 Enter.theValue("Abel").into(UtestJoinPage.FIRST_NAME),
                 Enter.theValue("Gallardo").into(UtestJoinPage.LAST_NAME),
-                Enter.theValue("ernestoh3226@gmail.com").into(UtestJoinPage.EMAIL_ADDRESS),
+                Enter.theValue("ernestoh3232507@gmail.com").into(UtestJoinPage.EMAIL_ADDRESS),
                 Click.on(UtestJoinPage.DATE_MONTH),
                 SelectFromOptions.byVisibleText("July").from(UtestJoinPage.DATE_MONTH),
                 Click.on(UtestJoinPage.DATE_DAY),
